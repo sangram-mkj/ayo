@@ -25,7 +25,39 @@ function PageBottom() {
           </div>          
         </div>
         <div className="right">
-          <p>RIGHT</p>
+          <div className="rightBox">
+            <div className="firstBox">
+              <div className="header">
+                Useful Links
+              </div>
+              <br />
+              <br />
+              <div className="contents">
+                <ul>
+                  <li>About</li>
+                  <li>About Us</li>
+                  <li>Our Services</li>
+                  <li>Testimonial</li>
+                  <li>Pricing</li>
+                  <li>Contact Us</li>
+                </ul>
+              </div>
+            </div>
+            <div className="secondBox">
+              <div className="header">
+                Contact Info
+              </div>
+              <div className="contents">
+                <ul>
+                  <li>Ayopark address goes here</li>
+                  <li>Tel: 0000111122</li>
+                  <li>Fax: 0000111122</li>
+                  <li>email@mail.com </li>
+                  <li>I C O N</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
   )

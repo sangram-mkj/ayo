@@ -1,6 +1,6 @@
 
 .main {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     height: 35vh;
     width: 100%;
     display: flex;
@@ -22,7 +22,6 @@
 .textBox {
     height: 70%;
     width: 70%;
-    border: 1px dotted yellow;
 }
 
 .headerText {
@@ -34,11 +33,6 @@
     font-family: 'DM';
     font-size: 16px;
     font-weight: 400;
-}
-
-.right {
-    width: 50%;
-    border-left: 1px solid #ffffff;
 }
 
 .newsletter {
@@ -75,4 +69,49 @@
     width: 170px;
     font-size: 20px;
     font-weight: 600;
+}
+
+.right {
+    width: 50%;
+    border-left: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: Unbound;
+    padding: 5%;
+}
+
+.rightBox {
+    display: flex;
+    width: 55%;
+    align-items: top;
+    justify-content: space-between;
+    /* border: 1px solid white;     */
+}
+
+.header {
+    /* border: 1px dotted violet; */
+    margin: 5px;
+    margin-bottom: 15%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contents {
+    font-family: DM;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.firstBox {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    height: 100%;
+}
+
+.secondBox {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #ffffff; */
 }

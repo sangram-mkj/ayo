@@ -1,0 +1,69 @@
+.mainBox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Unbound;
+    color: black;
+    background-color: #f3f3f3;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+}
+
+.left {
+    height: 100%;
+    width: 40%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBox {
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.contact_img {
+    height: 450px;
+    width: 100%;
+}
+
+.notImage {
+    height: 50%;
+    width: 100%;
+    border: 2px solid tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    font-size: 16px;
+}
+
+.right {
+    border: 1px solid blue;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: #ffc61a;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid blue;
+    width: 100%;
+    font-size: 20px;
+}
