@@ -1,0 +1,35 @@
+
+.main {
+    border: 1px solid purple;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    font-family: Unbound;
+    color: #ffffff;
+    background-color: #181b26;
+}
+
+.left {
+    border: 1px solid white;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBox {
+    height: 70%;
+    width: 70%;
+    border: 1px dotted blue;
+}
+
+.headerText {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.right {
+    border: 1px solid tomato;
+    width: 49%;
+}
