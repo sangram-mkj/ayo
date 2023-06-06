@@ -7,6 +7,11 @@
   src: url(../../public/assets/Font/Unbounded-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: 'DM';
+  src: url(../../public/assets/Font/DM_Sans/DMSans-Regular.ttf);
+}
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
