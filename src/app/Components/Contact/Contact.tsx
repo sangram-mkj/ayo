@@ -2,11 +2,13 @@ import React from 'react';
 import './Contact.css';
 import Image from 'next/image';
 import contact_us from '../../../../public/assets/Images/contact_us.png'
+import { useForm } from 'react-hook-form';
+
 
 function Contact() {
 
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const onSubmit = data => console.log(data);
+    // const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  // const onSubmit = data => console.log(data);
   
   return (
     <div className='mainBox'>
