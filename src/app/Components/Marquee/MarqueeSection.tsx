@@ -8,24 +8,32 @@ import Image from "next/image";
 const MarqueeSection = () => {
 
     return (
-        <div className="marqueeBox">
-            <Marquee>
+        // <div>
+            <Marquee className="marqueeBox">
                 {/* <span> */}
                     <Image src={star} alt="star icon" />
-                    <p>
-                        PARKING ENFORCEMENT
+                    <p className="marqueeText">
+                        &nbsp; &nbsp; PARKING ENFORCEMENT &nbsp; &nbsp;
                     </p>                    
                     <Image src={star} alt="star icon" />
-                    <p>
-                        PARKING ENFORCEMENT
+                    <p className="marqueeText">
+                    &nbsp; &nbsp; PARKING ENFORCEMENT &nbsp; &nbsp;
                     </p>
                     <Image src={star} alt="star icon" />
-                    <p>
-                        PARKING ENFORCEMENT
+                    <p className="marqueeText">
+                    &nbsp; &nbsp; PARKING ENFORCEMENT &nbsp; &nbsp;
+                    </p>
+                    <Image src={star} alt="star icon" />
+                    <p className="marqueeText">
+                    &nbsp; &nbsp; PARKING ENFORCEMENT &nbsp; &nbsp;
+                    </p>
+                    <Image src={star} alt="star icon" />
+                    <p className="marqueeText">
+                    &nbsp; &nbsp; PARKING ENFORCEMENT &nbsp; &nbsp;
                     </p>
                 {/* </span> */}
             </Marquee>
-        </div>
+        // </div>
     )
 }
 

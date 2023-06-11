@@ -1,0 +1,18 @@
+.ayopay {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Unbound;
+}
+
+.ayoPayHeader {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 48px;
+    font-weight: 500;
+}

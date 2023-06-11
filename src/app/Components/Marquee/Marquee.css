@@ -1,16 +1,18 @@
 
 .marqueeBox {
-    height: 10vh;
+    height: 8vh;
     background-color: white;
     color: black;
+    /* border: 1px solid blue; */
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     font-family: Unbound;
     font-weight: 500;
     font-size: 45px;
 }
 
-p{
+.marqueeText {
+    justify-self: center;
     align-self: center;
 }
