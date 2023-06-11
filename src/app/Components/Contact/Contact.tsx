@@ -2,6 +2,7 @@
 import React from 'react';
 import './Contact.css';
 import Image from 'next/image';
+import { Textarea  } from '@nextui-org/react';
 import contact_us from '../../../../public/assets/Images/contact_us.png'
 import { useForm } from 'react-hook-form';
 import Container from 'react-bootstrap/Container';
@@ -64,14 +65,13 @@ function Contact() {
                 <input type="tel" placeholder='Phone' {...register('mobile')} className="formInput" />
               </div>
             </div>
-
             <div className="queryBox">
-              <textarea placeholder='Describe your query here' {...register('query')} className="longText" />
+              <textarea placeholder='Describe your query here' className="longText" {...register('query')} />
             </div>
-            {/* <input type='submit' className='btn' /> */}
-            <button type='submit' className='btn'>Send</button>
+            <div className="btnDiv">
+              <button type='submit' className='btn'>Send</button>
+            </div>
           </form>
-          <h1>FORM</h1>
         </div>
       </div>
     </div>

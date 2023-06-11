@@ -131,13 +131,29 @@
     outline: none;
 }
 
-.querybox {
-    height: 500%;
-    width: 100%;
-    background-color: black;
+.queryBox {
+    height: 30%;
+    width: 92%;
+    align-self: left;
+    margin: 3%;
+    border-radius: 35px;
 }
 
-/* .longText {
+.longText {
     height: 100%;
     width: 100%;
-} */
+    /* background-color: #181B26; */
+    border-radius: 10px;
+}
+
+.longText:focus {
+    /* background-color: black; */
+    outline: none;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid red; */
+    padding-right: 3%;
+}
