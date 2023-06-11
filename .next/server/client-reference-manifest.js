@@ -282,6 +282,58 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./public/assets/icons/phone-flip 1.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/icons/phone-flip 1.svg",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/assets/icons/phone-flip 1.svg",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/assets/icons/phone-flip 1.svg",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/assets/icons/user 1.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/icons/user 1.svg",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/assets/icons/user 1.svg",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/assets/icons/user 1.svg",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -371,11 +423,11 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/home/sangram/work/ayo/src/app/page": [
-      "static/css/app/page.css"
-    ],
     "/home/sangram/work/ayo/src/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/home/sangram/work/ayo/src/app/page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -1051,6 +1103,20 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/home/sangram/work/ayo/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/sangram/work/ayo/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/home/sangram/work/ayo/src/app/Components/Contact/Contact.css#": {
       "id": "null",
       "name": "default",
@@ -1121,6 +1187,54 @@ self.__RSC_MANIFEST={
     },
     "/home/sangram/work/ayo/public/assets/icons/envelope.svg#default": {
       "id": "(app-client)/./public/assets/icons/envelope.svg",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/sangram/work/ayo/public/assets/icons/phone-flip 1.svg": {
+      "id": "(app-client)/./public/assets/icons/phone-flip 1.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/sangram/work/ayo/public/assets/icons/phone-flip 1.svg#": {
+      "id": "(app-client)/./public/assets/icons/phone-flip 1.svg",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/sangram/work/ayo/public/assets/icons/phone-flip 1.svg#default": {
+      "id": "(app-client)/./public/assets/icons/phone-flip 1.svg",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/sangram/work/ayo/public/assets/icons/user 1.svg": {
+      "id": "(app-client)/./public/assets/icons/user 1.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/sangram/work/ayo/public/assets/icons/user 1.svg#": {
+      "id": "(app-client)/./public/assets/icons/user 1.svg",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/sangram/work/ayo/public/assets/icons/user 1.svg#default": {
+      "id": "(app-client)/./public/assets/icons/user 1.svg",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -1262,20 +1376,6 @@ self.__RSC_MANIFEST={
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "/home/sangram/work/ayo/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/sangram/work/ayo/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
     }
   }
 }

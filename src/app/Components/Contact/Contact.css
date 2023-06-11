@@ -76,7 +76,7 @@
 
 .get-in-touch {
     /* width: auto; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* align-self:flex-start; */
     margin-top: 4%;
     font-size: 55px;
@@ -87,5 +87,57 @@
 
 .sub-text {
     font-family: DM;
-    color: #7A7A87;;
+    color: #7A7A87;
 }
+
+.formBox {
+    height: 80%;
+    width: 100%;
+    /* border: 1px solid red;   */
+    display: flex;
+    flex-direction: column;
+}
+
+.two {
+    display: flex;
+    height: 10%;
+    margin: 1%;
+}
+
+.inputDiv {
+    height: 100%;
+    width: 45%;
+    padding: 2%;
+    /* border: 1px solid blue; */
+    /* overflow:hidden; */
+    border-radius: 10px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.formInput {
+    top: 0px;
+    height: 100%;
+    width: 90%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.formInput:focus {
+    outline: none;
+}
+
+.querybox {
+    height: 500%;
+    width: 100%;
+    background-color: black;
+}
+
+/* .longText {
+    height: 100%;
+    width: 100%;
+} */
