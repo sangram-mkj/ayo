@@ -1,54 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&family=Unbounded&display=swap');
 
 .main {
-    /* border: 1px solid purple; */
-    height: 35vh;
     width: 100%;
-    display: flex;
-    justify-content:space-around;
     font-family: Unbound;
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #181b26;
 }
 
+.main-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .left {
-    border-right: 1px solid #ffffff;
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* fle */
+    padding: 4rem 0rem;
 }
 
 .textBox {
-    height: 70%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .headerText {
+    font-family: 'Unbounded', cursive;
     font-size: 36px;
     font-weight: 700;
 }
 
 .description {
-    font-family: 'DM';
+    font-family: 'DM Sans';
     font-size: 16px;
     font-weight: 400;
 }
 
 .newsletter {
-    /* background-color: #ffffff; */
     width: 600px;
     height: 85px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    padding: 1px;
-    border-radius: 40px;  
+    justify-content: space-between;
+    padding: 0.15rem;
+    border-radius: 40px;
 }
 
 .mail-icon {
-    margin-left: 5%;
+    width: 40px;
+    height: 40px;
+    margin-left: 2rem;
 }
 
 .newsletterMail {
@@ -56,7 +65,7 @@
     color: #181b26;
 }
 
-.newsletterMail:focus{
+.newsletterMail:focus {
     font-size: 18px;
     outline: none;
 }
@@ -65,8 +74,8 @@
     background-color: #ffc61a;
     border-radius: 40px;
     color: #181b26;
-    height: 78px;
-    width: 170px;
+    height: 99%;
+    width: 180px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -77,28 +86,41 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    font-family: Unbound;
+    font-family: 'Unbounded', cursive;
     padding: 5%;
 }
 
 .rightBox {
+    width: 100%;
     display: flex;
-    width: 55%;
     align-items: top;
-    justify-content: space-between;
-    /* border: 1px solid white;     */
+    justify-content: space-around;
 }
 
-.header {
-    /* border: 1px dotted violet; */
-    margin: 5px;
-    margin-bottom: 15%;
-    font-weight: 500;
-    font-size: 20px;
+.links-header {
+    font-size: 18px;
+    font-family: 'Unbounded';
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: 0.1rem;
 }
-
 .contents {
-    font-family: DM;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.content-li{
+
+}
+.content-li-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.link{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
@@ -106,12 +128,4 @@
 .firstBox {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid white; */
-    height: 100%;
-}
-
-.secondBox {
-    width: 50%;
-    height: 100%;
-    /* border: 1px solid #ffffff; */
 }

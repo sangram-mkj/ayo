@@ -308,6 +308,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./public/assets/icons/star.svg": {
+      "*": {
+        "id": "(sc_client)/./public/assets/icons/star.svg",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/assets/icons/star.svg",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/assets/icons/star.svg",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/assets/icons/user 1.svg": {
       "*": {
         "id": "(sc_client)/./public/assets/icons/user 1.svg",
@@ -419,19 +445,53 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./node_modules/react-fast-marquee/dist/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/react-fast-marquee/dist/index.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/react-fast-marquee/dist/index.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "__esModule": {
+        "id": "(sc_client)/./node_modules/react-fast-marquee/dist/index.js",
+        "name": "__esModule",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/react-fast-marquee/dist/index.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/home/sangram/work/ayo/src/app/layout": [
-      "static/css/app/layout.css"
-    ],
-    "/home/sangram/work/ayo/src/app/page": [
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/page": [
       "static/css/app/page.css"
+    ],
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/layout": [
+      "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/app-router.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -439,7 +499,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -447,7 +507,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/app-router.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -455,7 +515,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/app-router.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -463,7 +523,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/app-router.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -471,7 +531,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/app-router.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -479,15 +539,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -495,7 +547,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -503,7 +563,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -511,7 +571,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/error-boundary.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -519,7 +579,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -527,7 +587,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/error-boundary.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -535,7 +595,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/error-boundary.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -543,7 +603,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/error-boundary.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -551,7 +611,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -559,15 +619,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -575,7 +627,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -583,7 +643,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -591,7 +651,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -599,7 +659,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -607,7 +667,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/redirect-boundary.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -615,7 +675,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -623,7 +683,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/redirect-boundary.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -631,7 +691,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -639,15 +699,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -655,7 +707,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -663,7 +723,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -671,7 +731,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -679,7 +739,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -687,7 +747,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -695,7 +755,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -703,7 +763,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -711,7 +771,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -719,7 +779,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -727,7 +787,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -735,7 +795,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/app-router-context.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -743,7 +803,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -751,7 +811,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -759,7 +819,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -767,7 +827,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -775,7 +835,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -783,7 +843,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -791,7 +851,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -799,7 +859,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -807,7 +867,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -815,7 +875,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -823,7 +883,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -831,7 +891,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -839,7 +899,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -847,7 +907,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -855,7 +915,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -863,15 +923,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -879,7 +931,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -887,7 +947,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -895,7 +955,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -903,7 +963,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -911,7 +971,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -919,7 +979,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -927,15 +987,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -943,7 +995,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -951,7 +1011,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -959,7 +1019,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/layout-router.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -967,7 +1027,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -975,7 +1035,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/layout-router.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -983,7 +1043,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/layout-router.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -991,7 +1051,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/layout-router.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -999,7 +1059,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/layout-router.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1007,7 +1067,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1015,7 +1075,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1023,7 +1083,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/render-from-template-context.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1031,7 +1091,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1039,7 +1099,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/render-from-template-context.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1047,7 +1107,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1055,7 +1115,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1063,7 +1123,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1071,7 +1131,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1079,7 +1139,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1087,7 +1147,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1095,7 +1155,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1103,49 +1163,56 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/sangram/work/ayo/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/sangram/work/ayo/src/app/Components/Contact/Contact.css#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/AyoPay/ayopay.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "/home/sangram/work/ayo/src/app/Components/Footer/footer.css#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/Contact/Contact.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "/home/sangram/work/ayo/src/app/Components/PageBottom/pagebottom.css#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/Footer/footer.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "/home/sangram/work/ayo/src/app/Components/Navbar/navbar.module.css#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/Marquee/Marquee.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "/home/sangram/work/ayo/public/assets/Images/contact_us.png": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/PageBottom/pagebottom.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/Reviews/reviews.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/Navbar/navbar.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/Images/contact_us.png": {
       "id": "(app-client)/./public/assets/Images/contact_us.png",
       "name": "*",
       "chunks": [
@@ -1153,7 +1220,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/Images/contact_us.png#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/Images/contact_us.png#": {
       "id": "(app-client)/./public/assets/Images/contact_us.png",
       "name": "",
       "chunks": [
@@ -1161,7 +1228,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/Images/contact_us.png#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/Images/contact_us.png#default": {
       "id": "(app-client)/./public/assets/Images/contact_us.png",
       "name": "default",
       "chunks": [
@@ -1169,7 +1236,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/envelope.svg": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/envelope.svg": {
       "id": "(app-client)/./public/assets/icons/envelope.svg",
       "name": "*",
       "chunks": [
@@ -1177,7 +1244,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/envelope.svg#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/envelope.svg#": {
       "id": "(app-client)/./public/assets/icons/envelope.svg",
       "name": "",
       "chunks": [
@@ -1185,7 +1252,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/envelope.svg#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/envelope.svg#default": {
       "id": "(app-client)/./public/assets/icons/envelope.svg",
       "name": "default",
       "chunks": [
@@ -1193,7 +1260,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/phone-flip 1.svg": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/phone-flip 1.svg": {
       "id": "(app-client)/./public/assets/icons/phone-flip 1.svg",
       "name": "*",
       "chunks": [
@@ -1201,7 +1268,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/phone-flip 1.svg#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/phone-flip 1.svg#": {
       "id": "(app-client)/./public/assets/icons/phone-flip 1.svg",
       "name": "",
       "chunks": [
@@ -1209,7 +1276,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/phone-flip 1.svg#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/phone-flip 1.svg#default": {
       "id": "(app-client)/./public/assets/icons/phone-flip 1.svg",
       "name": "default",
       "chunks": [
@@ -1217,7 +1284,31 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/user 1.svg": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/star.svg": {
+      "id": "(app-client)/./public/assets/icons/star.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/star.svg#": {
+      "id": "(app-client)/./public/assets/icons/star.svg",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/star.svg#default": {
+      "id": "(app-client)/./public/assets/icons/star.svg",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/user 1.svg": {
       "id": "(app-client)/./public/assets/icons/user 1.svg",
       "name": "*",
       "chunks": [
@@ -1225,7 +1316,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/user 1.svg#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/user 1.svg#": {
       "id": "(app-client)/./public/assets/icons/user 1.svg",
       "name": "",
       "chunks": [
@@ -1233,7 +1324,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/public/assets/icons/user 1.svg#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/public/assets/icons/user 1.svg#default": {
       "id": "(app-client)/./public/assets/icons/user 1.svg",
       "name": "default",
       "chunks": [
@@ -1241,7 +1332,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/image.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -1249,7 +1340,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/image.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -1257,7 +1348,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/image.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -1265,7 +1356,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/image.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -1273,7 +1364,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/client/image.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/client/image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -1281,7 +1372,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/client/image.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/client/image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -1289,7 +1380,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/head.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -1297,7 +1388,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/head.js": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -1305,7 +1396,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/head.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -1313,7 +1404,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/head.js#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -1321,7 +1412,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/head.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -1329,7 +1420,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/head.js#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -1337,7 +1428,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/shared/lib/head.js#defaultHead": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/shared/lib/head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -1345,7 +1436,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -1353,7 +1444,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/src/app/Components/Contact/Contact.tsx": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/Contact/Contact.tsx": {
       "id": "(app-client)/./src/app/Components/Contact/Contact.tsx",
       "name": "*",
       "chunks": [
@@ -1361,7 +1452,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/src/app/Components/Contact/Contact.tsx#": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/Contact/Contact.tsx#": {
       "id": "(app-client)/./src/app/Components/Contact/Contact.tsx",
       "name": "",
       "chunks": [
@@ -1369,13 +1460,59 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/sangram/work/ayo/src/app/Components/Contact/Contact.tsx#default": {
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/Components/Contact/Contact.tsx#default": {
       "id": "(app-client)/./src/app/Components/Contact/Contact.tsx",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/react-fast-marquee/dist/index.js": {
+      "id": "(app-client)/./node_modules/react-fast-marquee/dist/index.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/react-fast-marquee/dist/index.js#": {
+      "id": "(app-client)/./node_modules/react-fast-marquee/dist/index.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/react-fast-marquee/dist/index.js#__esModule": {
+      "id": "(app-client)/./node_modules/react-fast-marquee/dist/index.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/react-fast-marquee/dist/index.js#default": {
+      "id": "(app-client)/./node_modules/react-fast-marquee/dist/index.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/dabourlaal/Works/Coderdeck/ayo/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }
